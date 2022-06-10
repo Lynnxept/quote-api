@@ -14,8 +14,6 @@ services:
         networks:
             - quotly
         command: node index.js
-        ports:
-            - 127.0.0.1:4888:4888
 
 
 networks:
