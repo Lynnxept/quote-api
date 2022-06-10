@@ -14,6 +14,7 @@ services:
         networks:
             - quotly
         command: node index.js
+        ports: 3000
 
 
 networks:
